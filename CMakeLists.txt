@@ -3,4 +3,4 @@ project(stepic_1_season)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(stepic_1_season main.cpp lessons/Person.cpp lessons/Person.h)
+add_executable(stepic_1_season main.cpp lessons/person.cpp lessons/person.h lessons/student.cpp lessons/student.h)
